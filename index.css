@@ -1,0 +1,28 @@
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: rgb(72, 255, 0);
+    transition: filter 400ms;
+}
+
+a:hover {
+    animation-name: rainbow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rainbow {
+    from {filter: hue-rotate(0deg)}
+    to { filter: hue-rotate(360deg);}
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
