@@ -5,10 +5,14 @@ body, html {
 
 a {
     color: rgb(72, 255, 0);
+    text-decoration: none;
     transition: filter 400ms;
+    border-radius: 10%;
+    padding: 20px;
 }
 
 a:hover {
+    background-color: rgb(247, 0, 255);
     animation-name: rainbow;
     animation-duration: 2s;
     animation-iteration-count: infinite;
